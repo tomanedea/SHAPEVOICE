@@ -1,0 +1,700 @@
+body {
+    font-family: 'Manrope', sans-serif;
+    background: url(imgs/Vector\ 1577.svg) right top no-repeat, url(imgs/Polygon\ 5.png) left top no-repeat, url(imgs/Polygon\ 6.png) left bottom no-repeat, linear-gradient(#fff, #eeeeee, #fff);
+}
+
+#navbarNav a {
+    font-weight: 600;
+    font-size: 14px;
+    color: #000;
+}
+
+#signin {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    padding: 16px 35px;
+    font-weight: 600;
+}
+
+/* text-shadow luat de pe net */
+#startfree {
+    color: #ffffff;
+    background-color: #4F46BA;
+    border-radius: 10px;
+    border: 1px solid #000;
+    padding: 16px 35px;
+    font-weight: 600;
+    text-shadow: 1px 1px 0 #000,
+        -1px 1px 0 #000,
+        1px -1px 0 #000,
+        -1px -1px 0 #000,
+        0px 1px 0 #000,
+        0px -1px 0 #000,
+        -1px 0px 0 #000,
+        1px 0px 0 #000,
+        2px 2px 0 #000,
+        -2px 2px 0 #000,
+        2px -2px 0 #000,
+        -2px -2px 0 #000,
+        0px 2px 0 #000,
+        0px -2px 0 #000,
+        -2px 0px 0 #000,
+        2px 0px 0 #000,
+        1px 2px 0 #000,
+        -1px 2px 0 #000,
+        1px -2px 0 #000,
+        -1px -2px 0 #000,
+        2px 1px 0 #000,
+        -2px 1px 0 #000,
+        2px -1px 0 #000,
+        -2px -1px 0 #000;
+}
+
+#startfree:hover {
+    background-color: #3734A9;
+    transition: 500ms;
+}
+
+.navbar {
+    padding-top: 40px;
+}
+
+.mainHeader {
+    padding-top: 131px;
+}
+
+.mainHeader h1 {
+    font-size: 60px;
+    font-weight: 800;
+    letter-spacing: -3%;
+    padding-left: 52px;
+}
+
+.mainHeader p {
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: -2%;
+    padding: 0 52px;
+    color: #64607D;
+}
+
+.mainButtons {
+    padding: 0 52px;
+}
+
+.mainButtons .ourProcess {
+    border-radius: 47px;
+    padding: 15px 36px;
+    font-weight: 600;
+    font-size: 16px;
+    background-color: #4F46BA;
+}
+
+.mainButtons .ourProcess:hover {
+    background-color: #3734A9;
+}
+
+.mainButtons .itWorks {
+    border: none;
+    padding-left: 36px;
+    font-weight: 600;
+    font-size: 17px;
+    background-color: none;
+    color: #4F46BA;
+    letter-spacing: -2%;
+}
+
+.itWorks span {
+    padding-left: 11px;
+}
+
+.itWorks i {
+    background-color: #22D497;
+    border-radius: 50%;
+    color: #fff;
+    padding: 15px 16.63px 16px 20.63px;
+    font-size: 25px;
+}
+
+.mainHeader h3 {
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: -2%;
+    color: #4F46BA;
+    padding: 50px 0 0 50px;
+}
+
+.mainHeader form {
+    padding: 0 50px;
+}
+
+#InputPassword {
+    margin-bottom: 24px;
+}
+
+.getStarted {
+    background-color: #FF7F5C;
+    padding: 16px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    border-color: #FF7F5C;
+    border-radius: 5px;
+}
+
+.getStarted:hover {
+    background-color: #f44c1e;
+    transition: 500ms;
+}
+
+.getStarted .form-control::placeholder {
+    background-color: #DFE4F1;
+    color: #64607D;
+}
+
+.startups {
+    padding: 108px 0;
+}
+
+.startups h4 {
+    text-align: center;
+    padding-bottom: 36px;
+    font-weight: 400;
+    font-size: 22px;
+    letter-spacing: -2%;
+
+}
+
+.bizReviews {
+    padding-bottom: 114px;
+    text-align: center;
+}
+
+.bizReviews h2 {
+    padding-bottom: 8px;
+    font-weight: 800;
+    font-size: 28px;
+}
+
+.bizReviews p {
+    padding-bottom: 16px;
+    font-size: 500;
+    font-size: 20px;
+    padding: 0 100px;
+    color: #64607D;
+}
+
+.bizReviews button {
+    background-color: #3734A9;
+    border-radius: 6.6px;
+    padding: 6px 66px;
+}
+
+.bizReviews button:hover {
+    background-color: #4F46BA;
+}
+
+.toolsSection {
+    padding-bottom: 75px;
+}
+
+.toolsSection i {
+    font-size: 27px;
+    color: #4F46BA;
+    background-color: #E8F2FF;
+    padding: 25px;
+    border-radius: 13px;
+}
+
+.toolsSection h5 {
+    font-weight: 800;
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+.toolsSection p {
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: -2%;
+    padding: 13px 0 25px 0;
+    color: #757095;
+}
+
+.itemList {
+    padding-top: 56px;
+}
+
+.toolsSection .position-absolute {
+    font-size: 300px;
+    font-weight: 900;
+    opacity: 5%;
+}
+
+/* .itemList {
+    background-color: #4F46BA;
+    color: #fff;
+} */
+
+.itemList .bg-text {
+    font-weight: 900;
+    font-size: 204px;
+    opacity: 5%;
+    color: #000;
+    position: absolute;
+    background-color: #fff;
+    z-index: -1;
+}
+
+.trackPortofolio {
+    background-color: #F8F9FD;
+    padding: 38px 72px;
+}
+
+.trackPortofolio h2 {
+    font-weight: 800;
+    font-size: 36px;
+}
+
+.trackPortofolio button {
+    font-weight: 500;
+    font-size: 16px;
+    padding: 13px 33px;
+    background-color: #4F46BA;
+}
+
+.trackPortofolio button:hover {
+    background-color: #3734A9;
+}
+
+.chooseUs {
+    padding-top: 170px;
+}
+
+.chooseUs-group li {
+    border: none;
+    font-size: 20px;
+    padding-left: 0px;
+    background: none;
+}
+
+.chooseUs-group li i {
+    font-size: 24px;
+    color: #FDBC64;
+    padding-right: 11px;
+}
+
+.chooseUs-group li:nth-of-type(3) {
+    border-bottom: 1px solid #E6E6E6;
+    padding-bottom: 23px;
+}
+
+.chooseUs span {
+    font-weight: 700;
+    font-size: 14px;
+    color: #3734A9;
+    text-transform: uppercase;
+    letter-spacing: -2%;
+}
+
+.chooseUs h2 {
+    font-weight: 800;
+    font-size: 50px;
+    color: #000;
+    letter-spacing: -3%;
+    padding-bottom: 29px;
+    padding-top: 15px;
+}
+
+.chooseUs p {
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: -2%;
+    color: #505887;
+    padding-bottom: 23px;
+}
+
+.moreAbout h2 {
+    font-weight: 800;
+    font-size: 42px;
+    text-align: center;
+    padding-top: 178px;
+}
+
+.moreAbout p {
+    font-weight: 500;
+    font-size: 20px;
+    padding: 13px 27%;
+    letter-spacing: -2%;
+    color: #64607D;
+    text-align: center;
+}
+
+.moreAbout .border {
+    border-radius: 22px;
+    border-color: #DFDFDF;
+    padding-bottom: 39px;
+    background-color: none;
+}
+
+.moreAbout .border:hover {
+    background-color: #fff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.moreAbout .border p {
+    padding: 20px 33px;
+    color: #64607D;
+    text-align: left;
+}
+
+.moreAbout .border h3 {
+    padding: 100px 33px 0 33px;
+}
+
+.moreAbout a {
+    color: #01966B;
+    padding-left: 33px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.moreAbout a:hover {
+    padding-left: 40px;
+    transition: 500ms;
+}
+
+.moreAbout a span {
+    padding-left: 10px;
+}
+
+.moreAbout .col-lg-4 {
+    padding: 0 25px 28px 25px;
+}
+
+.moreAbout button {
+    font-weight: 500;
+    font-size: 16px;
+    padding: 13px 33px;
+    background-color: #4F46BA;
+}
+
+.moreAbout .row:first-child {
+    padding-bottom: 80px;
+    /* border: 1px solid #DFDFDF; */
+}
+
+.moreAbout button:hover {
+    background-color: #3734A9;
+}
+
+.prefereceConnet {
+    /* padding-top: 80px; */
+    background-color: #fff;
+    border-radius: 15px;
+    border-color: #DFDFDF;
+}
+
+.prefereceConnet i {
+    padding: 15px;
+    font-size: 35px;
+    background-color: #E9ECF2;
+    color: #000;
+    border-radius: 3.3px;
+}
+
+.prefereceConnet h2 {
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.prefereceConnet p {
+    color: #64607D;
+    font-weight: 700;
+    font-size: 13px;
+    margin: 0;
+    padding-left: 12px;
+}
+
+.prefereceConnet .row {
+    padding: 27px 24px;
+}
+
+.clientReviews span {
+    font-weight: 700;
+    font-size: 10px;
+    color: #3734A9;
+    text-transform: uppercase;
+}
+
+.clientReviews h2 {
+    font-weight: 800;
+    font-size: 27px;
+    color: #000;
+    padding: 10px 0 25px 0;
+}
+
+.clientReviews {
+    padding-top: 80px;
+}
+
+.clientReviews .fa-quote-left {
+    font-size: 25px;
+    color: #FF7F5C;
+}
+
+.clientReviews h3 {
+    font-weight: 800;
+    font-size: 14px;
+}
+
+.clientReviews h4 {
+    font-weight: 800;
+    font-size: 12px;
+}
+
+.clientReviews p {
+    font-size: 11px;
+    color: #757095;
+}
+
+.clientReviews .fa-star {
+    color: #F9896B;
+    font-size: 12px;
+}
+
+.clientReviews img {
+    height: 350px;
+    width: 350px;
+}
+
+.clientReviews {
+    padding-bottom: 63px;
+}
+
+.blogPost {
+    padding-bottom: 50px;
+}
+
+.blogPost span {
+    font-size: 11px;
+    color: #64607D;
+    padding: 0 12px 0 0;
+}
+
+.blogPost h2 {
+    font-weight: 800;
+    font-size: 28px;
+}
+
+.blogPost .blogPostHeader {
+    padding-bottom: 36px;
+}
+
+.blogPost h3 {
+    font-weight: 800;
+    font-size: 13px;
+    padding: 9px 0 5px 0;
+    line-height: 1.6;
+}
+
+.blogPost a {
+    text-decoration: none;
+    color: #64607D;
+}
+
+.blogPost a:hover {
+    text-decoration: underline;
+}
+
+.blogPost h3 a {
+    text-decoration: none;
+    color: #000;
+}
+
+.blogPost h3 a:hover {
+    text-decoration: underline;
+}
+
+.blogPost p {
+    font-weight: 500;
+    font-size: 11px;
+}
+
+.blogPost ul li {
+    background: none;
+    border: none;
+    border-bottom: 1px solid #DEE1E6;
+}
+
+.blogPost button {
+    float: right;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 13px 33px;
+    background-color: #4F46BA;
+}
+
+.blogPost button:hover {
+    background-color: #3734A9;
+}
+
+.footerForm {
+    background-color: #4F46BA;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.footerFormIn span {
+    font-weight: 700;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+.footerFormIn h2 {
+    font-weight: 800;
+    font-size: 33px;
+    padding-top: 10px;
+}
+
+.footerFormIn p {
+    font-weight: 600;
+    font-size: 12px;
+    padding-top: 20px;
+    margin-bottom: 0;
+}
+
+.footerFormIn .form-control {
+    background-color: #F2F3F4;
+    opacity: 20%;
+    border-color: none;
+}
+
+.footerFormIn .form-control::placeholder {
+    color: #BBB5E0;
+    opacity: 1;
+}
+
+.mainFooter {
+    padding: 80px 0;
+    border-bottom: 1px solid #E5E5EA;
+}
+
+.mainFooter h4 {
+    font-size: 19px;
+}
+
+.mainFooter p {
+    font-weight: 500;
+    font-size: 11px;
+}
+
+.mainFooter li {
+    font-weight: 500;
+    font-size: 11px;
+    border: none;
+    padding-left: 0;
+    background: none;
+
+}
+
+.mainFooter a {
+    text-decoration: none;
+    color: #181433;
+}
+
+.mainFooter a:hover {
+    text-decoration: underline;
+}
+
+.mainFooter button {
+    border-radius: 0;
+    background-color: #3734A9;
+    color: #fff;
+    font-weight: 500;
+    font-size: 11px;
+    padding: 8px 28px;
+}
+
+.mainFooter input {
+    border-radius: 0;
+    background-color: #F9F9F9;
+    border: none;
+}
+
+.mainFooter input::placeholder {
+    font-weight: 500;
+    font-size: 11px;
+    opacity: 30%;
+}
+
+.mainFooter button:hover {
+    background-color: #4F46BA;
+}
+
+.copyright-footer {
+    padding: 26px 0 40px 0;
+    font-weight: 500;
+    font-size: 11px;
+    text-align: center;
+}
+
+/* MEDIA CSS */
+
+@media (max-width: 990px) {
+    .startups img {
+        padding: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+    .prefereceConnet p {
+        padding: 10px 0 0 0;
+    }
+
+    .mainFooter {
+        text-align: center;
+        padding-top: 40px;
+    }
+
+    .mainFooter p {
+        padding-bottom: 20px;
+    }
+
+    .mainFooter ul {
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .mainButtons .itWorks {
+        padding: 20px 50px 0 0;
+    }
+
+    .bizReviews p {
+        padding: 0;
+    }
+}
+
+@media (max-width: 575px) {
+    .mainButtons .itWorks {
+        padding: 20px 60px 0 0;
+    }
+
+    .prefereceConnet .row {
+        padding: 10px 0;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+    .prefereceConnet h2 {
+        text-align: center;
+    }
+
+}
